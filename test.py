@@ -15,3 +15,5 @@ print('the best language in the world is\nPYTHON!!!') #writing on new string
 
 print('the best language in the world is') #another way
 print('PYTHON!!!')
+
+print('The root user on this PC is ' + name) #summing strings
