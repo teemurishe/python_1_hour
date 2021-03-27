@@ -40,3 +40,5 @@ quot2 = num2 / num1 #quotient 2 (dividing)
 exp = num1 ** num2 #exponentiation numbers
 mod1 = num1 % num2 #dividing with module 1
 mod2 = num2 % num1 #dividing with module 2
+num1 = -num1 #unary minus 1
+num2 = -num2 #unary minus 2
