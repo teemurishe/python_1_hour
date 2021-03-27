@@ -44,3 +44,5 @@ num1 = -num1 #unary minus 1
 num2 = -num2 #unary minus 2
 num1 = 5.61 #for the next operation, float numbers are needed
 num2 = 5.87 #now there are two float numbers
+num1 = round(num1) #round() operator is used to make integer number from float
+num2 = round(num2) #usage: round(x), where x - variable (float) or float number
