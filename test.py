@@ -59,3 +59,4 @@ num1 = 5.41 #returning again
 num2 = 5.87 #to show another example with math
 num1 = math.ceil(num1) #opppositely, now we make it less
 num2 = math.ceil(num2) #ignoring the rules
+pi = math.pi #using math momdule to get the pi number
