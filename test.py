@@ -38,3 +38,5 @@ mult = num1 * num2 #multiplying numbers
 quot1 = num1 / num2 #quotient 1 (dividing)
 quot2 = num2 / num1 #quotient 2 (dividing)
 exp = num1 ** num2 #exponentiation numbers
+mod1 = num1 % num2 #dividing with module 1
+mod2 = num2 % num1 #dividing with module 2
