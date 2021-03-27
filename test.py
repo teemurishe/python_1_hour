@@ -26,3 +26,5 @@ username = input('Enter your name: ') #input() using: var = input('xxx')
 #where var - any variable (str default), where xxx - text for user
 user_age = int(input('Enter your age: ')) # input() usage with int() to get
 #an integer-typed variable
+print('Hello, ' + username + '!') #just an example of using input() in simple
+print('Your age is ' + str(user_age) + '. Wow!') #welcome program
