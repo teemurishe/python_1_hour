@@ -3,3 +3,5 @@ fnumber = 5.5 #float (float)
 name = 'timur' #string (str)
 status = True #boolean (bool)
 status2 = False #another bool
+
+print('test output')
