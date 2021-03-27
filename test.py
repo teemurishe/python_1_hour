@@ -42,3 +42,5 @@ mod1 = num1 % num2 #dividing with module 1
 mod2 = num2 % num1 #dividing with module 2
 num1 = -num1 #unary minus 1
 num2 = -num2 #unary minus 2
+num1 = 5.61 #for the next operation, float numbers are needed
+num2 = 5.87 #now there are two float numbers
