@@ -16,4 +16,7 @@ print('the best language in the world is\nPYTHON!!!') #writing on new string
 print('the best language in the world is') #another way
 print('PYTHON!!!')
 
-print('The root user on this PC is ' + name) #summing strings
+age = 14
+print('The root user on this PC is ' + name) #summing strings (concatenation)
+print('The age of this user is' + str(age) + 'years') #concatenation of
+#different types of data
