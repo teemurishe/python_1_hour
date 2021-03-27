@@ -70,3 +70,9 @@ if choice == 'world': #if usage with equality: if xxx == yyy:, where xxx -
     #tab (4 spaces) before each string of its code
 elif choice == 'user': #elif operator is used for such situations, same usage.
     print('Hi', username + '!') #Do you remember the username var (30rd str.)?
+else: #This operator doesn't have conditions, it runs only when all the
+#conditions before it are False
+    raise NameError('Incorrect choice! Try again, please...') #Same tabulation.
+    #the raise operator is needed to show an error text to user. Usage:
+    #raise xxx('blablabla'), where xxx - type of error (see Python docs), where
+    #blablabla - additional text which could help user to solve the problem
