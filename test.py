@@ -18,6 +18,11 @@ print('PYTHON!!!')
 
 age = 14
 print('The root user on this PC is ' + name) #summing strings (concatenation)
-print('The age of this user is' + str(age) + 'years') #concatenation of
+print('The age of this user is ' + str(age) + ' years') #concatenation of
 #different types of data (just make all the variables and other data
 #string-typed using 'str(x)', where x - variable name or another data')
+
+username = input('Enter your name: ') #input() using: var = input('xxx')
+#where var - any variable (str default), where xxx - text for user
+user_age = int(input('Enter your age: ')) # input() usage with int() to get
+#an integer-typed variable
