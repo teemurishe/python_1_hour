@@ -19,4 +19,5 @@ print('PYTHON!!!')
 age = 14
 print('The root user on this PC is ' + name) #summing strings (concatenation)
 print('The age of this user is' + str(age) + 'years') #concatenation of
-#different types of data
+#different types of data (just make all the variables and other data
+#string-typed using 'str(x)', where x - variable name or another data')
