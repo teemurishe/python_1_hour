@@ -1,2 +1,3 @@
-test = 5
-test2  = 'Timur'
+number = 5
+fnumber = 5.5
+name = 'timur'
