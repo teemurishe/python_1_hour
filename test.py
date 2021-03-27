@@ -12,3 +12,6 @@ print(28.6) #float output
 print('It\'s so dangerous') #shielding
 
 print('the best language in the world is\nPYTHON!!!') #writing on new string
+
+print('the best language in the world is') #another way
+print('PYTHON!!!')
