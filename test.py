@@ -1,3 +1,8 @@
+import math #importing a module for the example of making int numbers from float
+#usage: import xxx, where xxx - the name of module(this one is pre-installed,
+#some modules could be installed by using pip in bash (see official Python
+#documentation and Youtube guides)
+
 number = 5 #integer (int)
 fnumber = 5.5 #float (float)
 name = 'timur' #string (str)
