@@ -63,3 +63,10 @@ pi = math.pi #using math momdule to get the pi number
 
 choice = input('Hello world or Hi, user?') #if operator: preparation (user
 #should enter 'world' or 'user', then this choice is recorded to the choice var)
+if choice == 'world': #if usage with equality: if xxx == yyy:, where xxx -
+#the variable defined before the if block, where yyy - variable, string, number,
+#etc.
+    print('Hello world!') #the code of the if operator is under it, there is a
+    #tab (4 spaces) before each string of its code
+elif choice == 'user': #elif operator is used for such situations, same usage.
+    print('Hi', username + '!') #Do you remember the username var (30rd str.)?
