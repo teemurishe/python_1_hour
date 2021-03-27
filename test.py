@@ -61,7 +61,7 @@ num1 = math.ceil(num1) #opppositely, now we make it less
 num2 = math.ceil(num2) #ignoring the rules
 pi = math.pi #using math momdule to get the pi number
 
-choice = input('Hello world or Hi, user?') #if operator: preparation (user
+choice = input('Hello world or Hi, user?: ') #if operator: preparation (user
 #should enter 'world' or 'user', then this choice is recorded to the choice var)
 if choice == 'world': #if usage with equality: if xxx == yyy:, where xxx -
 #the variable defined before the if block, where yyy - variable, string, number,
@@ -77,4 +77,6 @@ else: #This operator doesn't have conditions, it runs only when all the
     #raise xxx('blablabla'), where xxx - type of error (see Python docs), where
     #blablabla - additional text which could help user to solve the problem
 #Another conditions for if: != (not equal), > (more than), < (less than),
-#>= (more than or equal), <= (less than or equal),
+#>= (more than or equal), <= (less than or equal)
+
+#Now you are ready to create a simple calculator! Go to calc.py now.
