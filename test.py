@@ -76,3 +76,5 @@ else: #This operator doesn't have conditions, it runs only when all the
     #the raise operator is needed to show an error text to user. Usage:
     #raise xxx('blablabla'), where xxx - type of error (see Python docs), where
     #blablabla - additional text which could help user to solve the problem
+#Another conditions for if: != (not equal), > (more than), < (less than),
+#>= (more than or equal), <= (less than or equal),
