@@ -8,3 +8,4 @@ print('test output')
 print(14)
 print(True)
 print(28.6)
+print('It\'s so dangerous') #Shielding
