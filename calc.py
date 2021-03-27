@@ -5,3 +5,6 @@ status = True #boolean (bool)
 status2 = False #another bool
 
 print('test output')
+print(14)
+print(True)
+print(28.6)
