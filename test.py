@@ -9,4 +9,6 @@ print(14) #integer output
 print(True) #boolean output
 print(28.6) #float output
 
-print('It\'s so dangerous') #Shielding
+print('It\'s so dangerous') #shielding
+
+print('the best language in the world is\nPYTHON!!!') #writing on new string
