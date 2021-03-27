@@ -34,3 +34,4 @@ num2 = 4 #second number
 sum = num1 + num2 #sum of numbers
 dif1 = num1 - num2 #first difference of numbers
 dif2 = num2 - num1 #second difference of numbers
+mult = num1 * num2 #multiplying numbers
