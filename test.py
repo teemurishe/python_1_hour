@@ -28,3 +28,7 @@ user_age = int(input('Enter your age: ')) # input() usage with int() to get
 #an integer-typed variable
 print('Hello, ' + username + '!') #just an example of using input() in simple
 print('Your age is ' + str(user_age) + '. Wow!') #welcome program
+
+num1 = 8 #math operations; first number
+num2 = 4 #second number
+sum = num1 + num2 #sum of numbers
