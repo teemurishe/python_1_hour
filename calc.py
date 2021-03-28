@@ -11,3 +11,9 @@ if operation == '+' or operation == '-': #check if the operation symbol is
 else: #for incorrect inputs
     raise ValueError('Incorrect oepration selected. Please, try again.')
     #raising an error with a commentary for user
+
+#To continue, you should open terminal (command line in Windows) and enter
+#'pip install colorama' ('pip3 install colorama' for linux). If you have
+#an error on linux, enter 'sudo apt install python3-pip' (deb-based systems like
+#Ubuntu). Error on Windows? Re-install Python and tick the 'Add Python to PATH'
+#phrse on the first step of installation.
