@@ -131,6 +131,6 @@ api_key = pyowm.OWM('26177363c268ee1d29d88a3aa230a3d8') #getting a special api
 place = input('Enter place: ') #user input to get the place where the weather
 #should be received from
 
-observation = mgr.weather_at_place(place) #now the program gets user's place
-weather_info = observation.weather #selecting weather from all the data
+observation = api_key.weather_at_place(place) #now the program gets user's place
+weather_info = observation.get_weather() #selecting weather from all the data
 print(weather_info)
