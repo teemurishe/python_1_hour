@@ -120,5 +120,4 @@ elif weather <= 50:
 else:
     raise ValueError('Incorrect value entered. Try again.') #An error raising
 
-
 #Now you are ready to create a simple calculator! Go to calc.py now.
