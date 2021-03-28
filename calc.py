@@ -8,3 +8,6 @@ if operation == '+' or operation == '-': #check if the operation symbol is
         print(num1 + num2)
     if operation == '-': #minus operations
         print(num1 - num2)
+else: #for incorrect inputs
+    raise ValueError('Incorrect oepration selected. Please, try again.')
+    #raising an error with a commentary for user
