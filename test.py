@@ -86,6 +86,16 @@ else: #This operator doesn't have conditions, it runs only when all the
 #Another conditions for if: != (not equal), > (more than), < (less than),
 #>= (more than or equal), <= (less than or equal)
 
+print()
+#To colour the string, we should print the parameter of colour before the string
+#We need two parameters now: Fore (colour of text) and Back (colour of text
+#background). Syntax: print(Xxx.YYY), where Xxx - parameter, where YYY - value.
+#These are the values for each parameter:
+#Fore: BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE, RESET.
+#Back: BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE, RESET.
+#Remember: The parameter works for every string below it. To disable, you
+#should use the RESET values for both parameters below the text where they
+#aren't needed.
 weather = int(input('Enter the temperature in degrees Celsius: ')) #Making a simple
 #program to say user what to put on using temperture data as example of coloring
 #text in console.
