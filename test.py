@@ -86,7 +86,8 @@ else: #This operator doesn't have conditions, it runs only when all the
 #Another conditions for if: != (not equal), > (more than), < (less than),
 #>= (more than or equal), <= (less than or equal)
 
-print()
+print(Back.WHITE) #Neutral color for temp. input
+print(Fore.BLACK) #White text on white back doesn'look nice. Let's use black text.
 #To colour the string, we should print the parameter of colour before the string
 #We need two parameters now: Fore (colour of text) and Back (colour of text
 #background). Syntax: print(Xxx.YYY), where Xxx - parameter, where YYY - value.
