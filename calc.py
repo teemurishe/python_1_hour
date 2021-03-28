@@ -1,3 +1,10 @@
+from colorama import init #importing a package to have this module working on
+#Windows
+from colorama import Fore, Back, Style #importing necessary packages from module
+#syntax: from xxx import yyy, zzz, aaa - where xxx - name of module, where
+#yyy, zzz, aaa - necessary parts of module (you always can import all the module
+#using default import xxx, where xxx - name of module)
+
 operation = input('Select the operation(+/-): ') #selecting the operation
 
 if operation == '+' or operation == '-': #check if the operation symbol is
@@ -11,9 +18,3 @@ if operation == '+' or operation == '-': #check if the operation symbol is
 else: #for incorrect inputs
     raise ValueError('Incorrect oepration selected. Please, try again.')
     #raising an error with a commentary for user
-
-#To continue, you should open terminal (command line in Windows) and enter
-#'pip install colorama' ('pip3 install colorama' for linux). If you have
-#an error on linux, enter 'sudo apt install python3-pip' (deb-based systems like
-#Ubuntu). Error on Windows? Re-install Python and tick the 'Add Python to PATH'
-#phrse on the first step of installation.
