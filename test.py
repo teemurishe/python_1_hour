@@ -101,6 +101,8 @@ weather = int(input('Enter the temperature in degrees Celsius: ')) #Making a sim
 #program to say user what to put on using temperture data as example of coloring
 #text in console.
 if weather >= 50: #making some checks like in examples below
+    print(Back.RED) #same for recommendations output
+    print(Fore.WHITE)
     print('It\'s very hot... Wear a T-shirt and shorts. Don\'t forget about sunscreen!')
     #Try not to make such long strings! And here you can also see shieldig.
 elif weather >= 30 and weather <= 50: #Two conditions using and operator
