@@ -21,3 +21,6 @@ else: #for incorrect inputs
     print(Fore.WHITE) #text color for error
     raise ValueError('Incorrect oepration selected. Please, try again.')
     #raising an error with a commentary for user
+ #Congratulations! Our first simple calculator is ready! But you can improve it:
+ #add more operations, or even create GUI! But now we're going to create another
+ #
