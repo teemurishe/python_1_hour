@@ -86,4 +86,24 @@ else: #This operator doesn't have conditions, it runs only when all the
 #Another conditions for if: != (not equal), > (more than), < (less than),
 #>= (more than or equal), <= (less than or equal)
 
+weather = int(input('Enter the temperature in degrees Celsius: ')) #Making a simple
+#program to say user what to put on using temperture data as example of coloring
+#text in console.
+if weather >= 50: #making some checks like in examples below
+    print('It\'s very hot... Wear a T-shirt and shorts. Don\'t forget about sunscreen!')
+    #Try not to make such long strings! And here you can also see shieldig.
+elif weather >= 30 and weather <= 50: #Two conditions using and operator
+    print('It\'s summer! Wear as usually: a T-shirt and shorts!')
+elif weather >= 10 and weather <= 30:
+    print('Wear pants and a jacket!')
+elif weather >= -10 and weather <= 10:
+    print('It\'s not too cold, but you should wear coveralls and warm jacket!')
+elif weather >= -30 and weather <= -10:
+    print('Wear a jacket from Norway and warm coveralls... Ah, underpants!')
+elif weather <= 50:
+    print('Welcome to Antarctica! Put on everything warm! Hello to penguins!')
+else:
+    raise ValueError('Incorrect value entered. Try again.') #An error raising
+
+
 #Now you are ready to create a simple calculator! Go to calc.py now.
