@@ -101,20 +101,22 @@ weather = int(input('Enter the temperature in degrees Celsius: ')) #Making a sim
 #program to say user what to put on using temperture data as example of coloring
 #text in console.
 if weather >= 50: #making some checks like in examples below
-    print(Back.RED) #same for recommendations output
-    print(Fore.WHITE)
-    print('It\'s very hot... Wear a T-shirt and shorts. Don\'t forget about sunscreen!')
+    print(Back.RED, Fore.WHITE, 'It\'s very hot... Wear a T-shirt and shorts. Don\'t forget about sunscreen!', sep = '')
+    #We can also improve the output by printing colors and text in one operator.
+    #The 'sep' is a key word to set your own way to separate the parts of
+    #output. For example, sep = '' deletes any separators betweeen output parts.
     #Try not to make such long strings! And here you can also see shieldig.
 elif weather >= 30 and weather <= 50: #Two conditions using and operator
-    print('It\'s summer! Wear as usually: a T-shirt and shorts!')
+    print(Back.YELLOW, Fore.BLACK, 'It\'s summer! Wear as usually: a T-shirt and shorts!')
+    #Same for other outputs
 elif weather >= 10 and weather <= 30:
-    print('Wear pants and a jacket!')
+    print(Back.GREEN, Fore.BLACK, 'Wear pants and a jacket!')
 elif weather >= -10 and weather <= 10:
-    print('It\'s not too cold, but you should wear coveralls and warm jacket!')
+    print(Back.CYAN, Fore.BLACK, 'It\'s not too cold, but you should wear coveralls and warm jacket!')
 elif weather >= -30 and weather <= -10:
-    print('Wear a jacket from Norway and warm coveralls... Ah, underpants!')
+    print(Back.BLUE, Fore.WHITE, 'Wear a jacket from Norway and warm coveralls... Ah, underpants!')
 elif weather <= 50:
-    print('Welcome to Antarctica! Put on everything warm! Hello to penguins!')
+    print(Back.MAGENTA, Fore.WHITE, 'Welcome to Antarctica! Put on everything warm! Hello to penguins!')
 else:
     raise ValueError('Incorrect value entered. Try again.') #An error raising
 
