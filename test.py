@@ -3,11 +3,13 @@ import math #importing a module for the example of making int numbers from float
 #some modules could be installed by using pip in bash (see official Python
 #documentation and Youtube guides)
 from colorama import init #importing a package to have this module working on
-#Windows
+#Windows (install this package with pip)
 from colorama import Fore, Back, Style #importing necessary packages from module
 #syntax: from xxx import yyy, zzz, aaa - where xxx - name of module, where
 #yyy, zzz, aaa - necessary parts of module (you always can import all the module
 #using default import xxx, where xxx - name of module)
+import pyowm #Importing a module to create a weathercast program. Install module
+#using pip.
 init() #also a command to have the module working on Windows
 
 number = 5 #integer (int)

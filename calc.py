@@ -23,4 +23,4 @@ else: #for incorrect inputs
     #raising an error with a commentary for user
  #Congratulations! Our first simple calculator is ready! But you can improve it:
  #add more operations, or even create GUI! But now we're going to create another
- #
+ #program... Go to test.py to continue!
