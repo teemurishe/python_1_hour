@@ -137,4 +137,5 @@ temp_info = w.get_temperature('celsius')['temp'] #getting temperature in degrees
 #celsius
 detailed_status = w.get_detailed_status() #getting sky status
 
-print(weather_info) #very unreadable output
+print(weather_info, temp_info, detailed_status, sep = '\n') #new output with
+#'enters' as separators
