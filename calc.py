@@ -4,6 +4,7 @@ from colorama import Fore, Back, Style #importing necessary packages from module
 #syntax: from xxx import yyy, zzz, aaa - where xxx - name of module, where
 #yyy, zzz, aaa - necessary parts of module (you always can import all the module
 #using default import xxx, where xxx - name of module)
+init() #also a command to have the program working on Windows
 
 operation = input('Select the operation(+/-): ') #selecting the operation
 
