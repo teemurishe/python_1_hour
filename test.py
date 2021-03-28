@@ -107,16 +107,16 @@ if weather >= 50: #making some checks like in examples below
     #output. For example, sep = '' deletes any separators betweeen output parts.
     #Try not to make such long strings! And here you can also see shieldig.
 elif weather >= 30 and weather <= 50: #Two conditions using and operator
-    print(Back.YELLOW, Fore.BLACK, 'It\'s summer! Wear as usually: a T-shirt and shorts!')
+    print(Back.YELLOW, Fore.BLACK, 'It\'s summer! Wear as usually: a T-shirt and shorts!', sep = '')
     #Same for other outputs
 elif weather >= 10 and weather <= 30:
-    print(Back.GREEN, Fore.BLACK, 'Wear pants and a jacket!')
+    print(Back.GREEN, Fore.BLACK, 'Wear pants and a jacket!', sep = '')
 elif weather >= -10 and weather <= 10:
-    print(Back.CYAN, Fore.BLACK, 'It\'s not too cold, but you should wear coveralls and warm jacket!')
+    print(Back.CYAN, Fore.BLACK, 'It\'s not too cold, but you should wear coveralls and warm jacket!', sep = '')
 elif weather >= -30 and weather <= -10:
-    print(Back.BLUE, Fore.WHITE, 'Wear a jacket from Norway and warm coveralls... Ah, underpants!')
+    print(Back.BLUE, Fore.WHITE, 'Wear a jacket from Norway and warm coveralls... Ah, underpants!', sep = '')
 elif weather <= 50:
-    print(Back.MAGENTA, Fore.WHITE, 'Welcome to Antarctica! Put on everything warm! Hello to penguins!')
+    print(Back.MAGENTA, Fore.WHITE, 'Welcome to Antarctica! Put on everything warm! Hello to penguins!', sep = '')
 else:
     raise ValueError('Incorrect value entered. Try again.') #An error raising
 
