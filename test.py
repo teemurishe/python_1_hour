@@ -133,9 +133,9 @@ place = input('Enter place: ') #user input to get the place where the weather
 
 observation = api_key.weather_at_place(place) #now the program gets user's place
 weather_info = observation.get_weather() #selecting weather from all the data
-temp_info = w.get_temperature('celsius')['temp'] #getting temperature in degrees
+temp_info = weather_info.get_temperature('celsius')['temp'] #getting temperature in degrees
 #celsius
-detailed_status = w.get_detailed_status() #getting sky status
+detailed_status = weather_info.get_detailed_status() #getting sky status
 
 print(weather_info, temp_info, detailed_status, sep = '\n') #new output with
 #'enters' as separators
