@@ -2,6 +2,13 @@ import math #importing a module for the example of making int numbers from float
 #usage: import xxx, where xxx - the name of module(this one is pre-installed,
 #some modules could be installed by using pip in bash (see official Python
 #documentation and Youtube guides)
+from colorama import init #importing a package to have this module working on
+#Windows
+from colorama import Fore, Back, Style #importing necessary packages from module
+#syntax: from xxx import yyy, zzz, aaa - where xxx - name of module, where
+#yyy, zzz, aaa - necessary parts of module (you always can import all the module
+#using default import xxx, where xxx - name of module)
+init() #also a command to have the module working on Windows
 
 number = 5 #integer (int)
 fnumber = 5.5 #float (float)
