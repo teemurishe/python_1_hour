@@ -139,3 +139,5 @@ detailed_status = weather_info.get_detailed_status() #getting sky status
 
 print(weather_info, temp_info, detailed_status, sep = '\n') #new output with
 #'enters' as separators
+
+#Now you are ready to create a weather forcast program! Go to weather.py.
