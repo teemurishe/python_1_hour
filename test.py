@@ -123,3 +123,7 @@ else:
     raise ValueError('Incorrect value entered. Try again.') #An error raising
 
 #Now you are ready to create a simple calculator! Go to calc.py now.
+
+api_key = pyowm.OWM('26177363c268ee1d29d88a3aa230a3d8') #getting a special api
+#key to receive information from OpenWeatherMap service. You can generate your
+#own one on https://home.openweathermap.org/api_keys site after registration.
