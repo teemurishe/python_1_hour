@@ -40,4 +40,4 @@ elif temp_info >= -30 and temp_info <= -10:
     print('Wear a jacket from Norway and warm coveralls... Ah, underpants!', sep = '')
 elif temp_info <= 50:
     print('Welcome to Antarctica! Put on everything warm! Hello to penguins!', sep = '')
-#Weather forecast program is ready! COngratulations!
+#Weather forecast program is ready! Congratulations!
